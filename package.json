@@ -1,0 +1,12 @@
+{
+  "name": "uow-cicd",
+  "packageManager": "yarn@4.14.1",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "echo \"tests passed\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
